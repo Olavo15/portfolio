@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "LavishlyYours";
+  src: url("./fonts/Graphit/LavishlyYours-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inika";
+  src: url("./fonts/Graphit/Inika-Regular.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  background-image: url('https://windowscustomization.com/wp-content/uploads/2019/10/The-Nebula-768x432.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
