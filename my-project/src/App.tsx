@@ -1,12 +1,29 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Moon, SunDim } from "@phosphor-icons/react";
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   };
+
+  const contents = [
+    "🌟 WELCOME TO MY PORTFOLIO! 🌟",
+    "🔒 I HAVE A STRONG PASSION FOR CYBERSECURITY AND PENETRATION TESTING",
+    "🚀 I AM A FRONT-END DEVELOPER"
+    
+];
+
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % contents.length);
+    }, 4000); 
+
+    return () => clearInterval(timer);
+  }, [contents.length]);
 
   return (
     <div 
@@ -24,22 +41,22 @@ export default function App() {
         </div>
       </aside>
       <div className="flex justify-center">
-        <h1 className="text-8xl font-Inika">
+        <h1 className="text-8xl font-Inika text-center">
           HELLO, MY NAME IS <br />
-          OLAVO REGIS
+          <span className="block mt-2">OLAVO REGIS</span>
         </h1>
       </div>
       <br/>
       <div className="flex justify-center">
-        <h1 className="text-4xl font-Inika">
-          I AM A WEB DEVELOPER
+        <h1 className="text-4xl font-Inika fade-in">
+          {contents[currentIndex]}
         </h1>
       </div>
-      <div className=''>
-        <a href=''>
-          
-        </a>
+      <div className="p-5 flex justify-center space-x-24">
+        <a href='#' className='hover:text-green-500'>see my projects</a>
+        <a href='#' className='hover:text-yellow-500'>Find out more</a>
       </div>
+
     </div>
   );
 }
