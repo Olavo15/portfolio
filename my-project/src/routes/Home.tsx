@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div className="p-5 flex justify-center space-x-24">
         <a href='/projeto' className='hover:text-green-500'>see my projects</a>
-        <a href='#' className='hover:text-yellow-500'>Find out more</a>
+        <a href='/Find' className='hover:text-yellow-500'>Find out more</a>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Moon, SunDim } from "@phosphor-icons/react";
 
-export default function Project() {
+export default function Find() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
