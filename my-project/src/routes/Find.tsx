@@ -14,7 +14,7 @@ export default function Find() {
     >
       <aside className="py-24 px-14 flex justify-between">
         <div className="font-Lavishly text-4xl">
-          <h1 translate="no">OR</h1>
+          <a translate="no" href='/'>OR</a>
         </div>
         <div className="flex items-center space-x-5">
           <h1 className="text-4xl font-Inika">EN</h1>
@@ -23,6 +23,14 @@ export default function Find() {
           </button>
         </div>
       </aside>
+      <div className=''>
+        <div className='flex justify-between'>
+            <h1 className=""></h1>
+            <img
+            src="" 
+            alt="" />
+        </div>
+      </div>
     </div>
   )
 }
