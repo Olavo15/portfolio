@@ -1,5 +1,4 @@
-import React from "react";
-import { Route, createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 
 import Home from "./routes/Home";
 import Project from "./routes/Project";

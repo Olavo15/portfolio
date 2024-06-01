@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Moon, SunDim, GithubLogo } from "@phosphor-icons/react";
 
 export default function Find() {
