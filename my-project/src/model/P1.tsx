@@ -16,7 +16,7 @@ function ImageWithModal() {
       <img
         className="w-44 h-auto cursor-pointer rounded-lg shadow-lg hover:opacity-80 transition duration-300"
         alt="Ilustração do código funcionando"
-        src="src/figure/calculator.png"
+        src="src/calculator.png"
         onClick={openModal}
       />
       
