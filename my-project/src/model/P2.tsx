@@ -15,8 +15,8 @@ function ImageWithModal() {
     <div className="p-5 flex flex-col items-center">
       <img
         className="w-44 h-auto cursor-pointer rounded-lg shadow-lg hover:opacity-80 transition duration-300"
-        alt="Ilustração do código funcionando"
-        src="src/Snake.png"
+        alt="Illustration of working code"
+        src="Snake.png"
         onClick={openModal}
       />
 
@@ -43,7 +43,7 @@ function ImageWithModal() {
             <img
               className="max-w-full max-h-full rounded-lg shadow-lg"
               alt="Ilustração do código funcionando"
-              src="src/Snake.png"
+              src="Snake.png"
             />
             <button
               className="absolute top-0 right-0 m-4 text-white bg-red-600 hover:bg-red-800 transition duration-300 rounded-full px-4 py-2"
