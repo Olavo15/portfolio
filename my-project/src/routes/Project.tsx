@@ -13,13 +13,13 @@ export default function Project() {
   };
 
   return (
-    <div className={`h-auto ${isDarkMode ? 'bg-gray-800 bg-opacity-5 text-white' : 'bg-blue-500 bg-opacity-25 text-black'}`}>
-      <aside className="py-24 px-14 flex justify-between">
-        <div className="font-Lavishly text-4xl">
+    <div className={`min-h-screen ${isDarkMode ? 'bg-gray-800 bg-opacity-50 text-white' : 'bg-gray-900 bg-opacity-45 text-white'}`}>
+      <aside className="py-6 px-4 sm:px-14 flex justify-between items-center">
+        <div className="font-Lavishly text-2xl sm:text-4xl">
           <a translate="no" href='/'>OR</a>
         </div>
-        <div className="flex items-center space-x-5">
-          <h1 className="text-4xl font-Inika">EN</h1>
+        <div className="flex items-center space-x-3 sm:space-x-5">
+          <h1 className="text-2xl sm:text-4xl font-Inika">EN</h1>
           <button onClick={toggleDarkMode}>
             {isDarkMode ? <SunDim size={32} /> : <Moon size={32} />}
           </button>
@@ -27,16 +27,16 @@ export default function Project() {
       </aside>
 
       <div className="flex justify-center">
-        <h1 className="text-4xl font-Inika">My projects</h1>
+        <h1 className="text-2xl sm:text-4xl font-Inika">My projects</h1>
       </div>
 
-      <div className="flex flex-col justify-stretch items-center mt-6">
-        <div className="flex justify-between w-full">
+      <div className="flex flex-col items-center mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full px-4 sm:px-14">
           <P1 />
           <P2 />
           <P3 />
         </div>
-        <div className="flex justify-between w-full mt-6">
+        <div className="w-full px-4 sm:px-14 mt-6">
           <P4 />
         </div>
       </div>

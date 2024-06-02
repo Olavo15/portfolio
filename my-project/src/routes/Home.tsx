@@ -24,9 +24,7 @@ export default function Home() {
   }, [contents.length]);
 
   return (
-    <div
-    className={`h-screen ${isDarkMode ? 'bg-gray-800 bg-opacity-5 text-white' : 'bg-blue-500 bg-opacity-25 text-black'}`}
-    >
+    <div className={`min-h-screen ${isDarkMode ? 'bg-gray-800 bg-opacity-50 text-white' : 'bg-gray-900 bg-opacity-45 text-white'}`}>
       <aside className="py-10 px-5 sm:py-24 sm:px-14 flex justify-between items-center">
         <div className="font-Lavishly text-2xl sm:text-4xl">
           <h1 translate="no">OR</h1>
@@ -49,13 +47,13 @@ export default function Home() {
       </div>
       <br />
       <div className="flex justify-center">
-        <h1 className="text-2xl sm:text-4xl font-Inika fade-in">
+        <h1 className="text-2xl sm:text-4xl font-Inika fade-in text-center">
           {contents[currentIndex]}
         </h1>
       </div>
-      <div className="p-5 flex justify-center space-x-5 sm:space-x-24">
-        <a href='/projeto' className='hover:text-green-500 transition-colors duration-300'>see my projects</a>
-        <a href='/Find' className='hover:text-yellow-500 transition-colors duration-300'>Find out more</a>
+      <div className="p-5 flex justify-center flex-col sm:flex-row space-y-5 sm:space-y-0 sm:space-x-24">
+        <a href='/projeto' className='text-xl sm:text-2xl hover:text-green-500 transition-colors duration-300 text-center'>see my projects</a>
+        <a href='/Find' className='text-xl sm:text-2xl hover:text-yellow-500 transition-colors duration-300 text-center'>Find out more</a>
       </div>
     </div>
   );
