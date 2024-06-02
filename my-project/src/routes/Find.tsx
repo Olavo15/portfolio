@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Moon, SunDim, GithubLogo } from "@phosphor-icons/react";
+import { Moon, SunDim, GithubLogo, InstagramLogo, LinkedinLogo} from "@phosphor-icons/react";
 
 export default function Find() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -41,9 +41,18 @@ export default function Find() {
           </div>
         </div>
       </div>
-      <div className='flex justify-center mt-4 px-4'>
+        <h1 className="font-Inika px-64 mt-4 text-lg">counted:</h1>
+      <div className='flex px-72 mt-4 space-x-4'>
+      <a href='https://github.com/Olavo15' target='_blank' rel='noopener noreferrer' className='hover:text-indigo-700'>
         <GithubLogo size={32} />
-      </div>
+      </a>
+      <a href='https://www.instagram.com/olavo_r15/' target='_blank' rel='noopener noreferrer' className='hover:text-pink-600'>
+        <InstagramLogo size={32} />
+      </a>
+      <a href='https://www.linkedin.com/in/olavo-regis-22b57b297/' target='_blank' rel='noopener noreferrer' className='hover:text-blue-600'>
+        <LinkedinLogo size={32} />
+      </a>
+    </div>
       <div className="flex justify-center md:justify-end px-4 md:px-96 mt-4">
         <a href='https://curriculo-two-khaki.vercel.app/' className='text-lg md:text-xl text-blue-600 font-Inika mt-2 hover:text-green-600'>My CV</a>
       </div>    
