@@ -13,7 +13,7 @@ export default function Project() {
   };
 
   return (
-    <div className={`h-auto ${isDarkMode ? 'bg-gray-800 bg-opacity-75 text-white' : 'bg-blue-500 bg-opacity-25 text-black'}`}>
+    <div className={`h-auto ${isDarkMode ? 'bg-gray-800 bg-opacity-5 text-white' : 'bg-blue-500 bg-opacity-25 text-black'}`}>
       <aside className="py-24 px-14 flex justify-between">
         <div className="font-Lavishly text-4xl">
           <a translate="no" href='/'>OR</a>

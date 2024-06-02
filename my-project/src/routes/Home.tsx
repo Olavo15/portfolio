@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
     <div
-      className={`h-screen transition-colors duration-500 ${isDarkMode ? 'bg-gray-800 bg-opacity-75 text-white' : 'bg-blue-500 bg-opacity-25 text-black'}`}
+    className={`h-screen ${isDarkMode ? 'bg-gray-800 bg-opacity-5 text-white' : 'bg-blue-500 bg-opacity-25 text-black'}`}
     >
       <aside className="py-10 px-5 sm:py-24 sm:px-14 flex justify-between items-center">
         <div className="font-Lavishly text-2xl sm:text-4xl">
