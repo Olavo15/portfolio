@@ -16,16 +16,16 @@ function ImageWithModal() {
       <img
         className="w-44 h-auto cursor-pointer rounded-lg shadow-lg hover:opacity-80 transition duration-300"
         alt="Ilustração do código funcionando"
-        src="src/figure/porta.jpeg"
+        src="src/porta.jpeg"
         onClick={openModal}
       />
 
       <h1 className="mt-4 text-lg font-Inika text-center"> 
-      A simple Python script that uses the Nmap library to perform port scans on a specific IP.<br /> 
-      It allows you to choose the type of scan you want and display open ports.
+        A simple Python script that uses the Nmap library to perform port scans on a specific IP.<br /> 
+        It allows you to choose the type of scan you want and display open ports.
       </h1>
 
-      <p className='mt-4 text-lg font-Inika'>language used</p>
+      <p className="mt-4 text-lg font-Inika">Language used</p>
       <img
         src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
         alt="Python Badge"
@@ -43,7 +43,7 @@ function ImageWithModal() {
             <img
               className="max-w-full max-h-full rounded-lg shadow-lg"
               alt="Ilustração do código funcionando"
-              src="src/figure/porta.jpeg"
+              src="https://i.ibb.co/YPKX12Q/your-image.png"
             />
             <button
               className="absolute top-0 right-0 m-4 text-white bg-red-600 hover:bg-red-800 transition duration-300 rounded-full px-4 py-2"
