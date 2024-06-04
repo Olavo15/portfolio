@@ -7,30 +7,9 @@ import P4 from '../model/P4';
 
 export default function Project() {
   const [isDarkMode, setIsDarkMode] = useState(false);
-  const [language, setLanguage] = useState('EN');
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-  };
-
-  const toggleLanguage = () => {
-    const nextLanguage = language === 'EN' ? 'PT' : language === 'PT' ? 'ES' : 'EN';
-    setLanguage(nextLanguage);
-  };
-
-  const content = {
-    EN: {
-      language: "EN",
-      myProjects: "My projects"
-    },
-    PT: {
-      language: "PT",
-      myProjects: "Meus projetos"
-    },
-    ES: {
-      language: "ES",
-      myProjects: "Mis proyectos"
-    }
   };
 
   return (
@@ -40,7 +19,6 @@ export default function Project() {
           <a translate="no" href='/'>OR</a>
         </div>
         <div className="flex items-center space-x-3 sm:space-x-5">
-          <h1 className="text-2xl sm:text-4xl font-Inika cursor-pointer" onClick={toggleLanguage}>{content[language].language}</h1>
           <button onClick={toggleDarkMode}>
             {isDarkMode ? <SunDim size={32} /> : <Moon size={32} />}
           </button>
@@ -48,7 +26,7 @@ export default function Project() {
       </aside>
 
       <div className="flex justify-center">
-        <h1 className="text-2xl sm:text-4xl font-Inika">{content[language].myProjects}</h1>
+        <h1 className="text-2xl sm:text-4xl font-Inika">My projects</h1>
       </div>
 
       <div className="flex flex-col items-center mt-6">
