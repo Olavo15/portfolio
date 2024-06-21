@@ -10,11 +10,11 @@ export default function Find() {
 
   return (
     <div className={`min-h-screen ${isDarkMode ? 'bg-gray-800 bg-opacity-50 text-white' : 'bg-gray-900 bg-opacity-45 text-white'}`}>
-      <aside className="py-6 px-4 md:py-12 md:px-14 flex flex-col md:flex-row justify-between items-center">
-        <div className="font-Lavishly text-4xl mb-4 md:mb-0">
+      <aside className="py-6 px-4 sm:px-14 flex justify-between items-center">
+        <div className="font-Lavishly text-2xl sm:text-4xl">
           <a translate="no" href='/'>OR</a>
         </div>
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-3 sm:space-x-5">
           <button onClick={toggleDarkMode}>
             {isDarkMode ? <SunDim size={32} /> : <Moon size={32} />}
           </button>
@@ -82,6 +82,11 @@ export default function Find() {
         <img
           src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
           alt="JavaScript"
+          className="m-2"
+        />
+        <img
+          src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+          alt="Node.js"
           className="m-2"
         />
         <img
