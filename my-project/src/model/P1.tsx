@@ -22,7 +22,7 @@ function ImageWithModal() {
       
       <h1 className="mt-4 text-lg font-Inika text-center">
         The code is a simple calculator application made with Kivy,<br />
-        a Python library for developing GUI applications. A replica of a game that everyone<br />
+        a Python library for developing GUI applications.<br />
       </h1>
 
       <p className='mt-4 text-lg font-Inika'>language used</p>

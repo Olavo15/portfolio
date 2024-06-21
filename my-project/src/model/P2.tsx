@@ -21,6 +21,7 @@ function ImageWithModal() {
       />
 
       <h1 className="mt-4 text-lg font-Inika text-center"> 
+      A replica of a game that everyone<br/>
       has played as a child the famous Snake<br />
       developed in Python using the Turtle and Pygame libraries.
       </h1>
