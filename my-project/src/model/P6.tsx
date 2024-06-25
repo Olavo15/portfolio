@@ -21,9 +21,9 @@ function ImageWithModal() {
       />
 
       <h1 className="mt-4 text-lg font-Inika text-center">
-      This repository contains example code that performs file<br/>
-      encryption and decryption using the pyaes library in Python.<br/>
-      The purpose of this code is to demonstrate how a file can be encrypted,<br/>
+      This repository contains example code that performs file
+      encryption and decryption using the pyaes library in Python.
+      The purpose of this code is to demonstrate how a file can be encrypted,
       stored under a new name, and later decrypted to recover the original contents
       </h1>
 

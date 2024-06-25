@@ -21,8 +21,8 @@ function ImageWithModal() {
       />
 
       <h1 className="mt-4 text-lg font-Inika text-center">
-        Mario Kart is a series of racing games developed <br />
-        and published by Nintendo. The inductee was to <br />
+        Mario Kart is a series of racing games developed
+        and published by Nintendo. The inductee was to
         create a video game logic to simulate Mario Kart racing
       </h1>
 
