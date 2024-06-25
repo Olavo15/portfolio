@@ -21,7 +21,7 @@ function ImageWithModal() {
       />
 
       <h1 className="mt-4 text-lg font-Inika text-center"> 
-        A simple Python script that uses the Nmap library to perform port scans on a specific IP.<br /> 
+        A simple Python script that uses the Nmap library to perform port scans on a specific IP. 
         It allows you to choose the type of scan you want and display open ports.
       </h1>
 
