@@ -21,8 +21,8 @@ function ImageWithModal() {
       />
 
       <h1 className="mt-4 text-lg font-Inika text-center"> 
-      This project uses the OpenCV library and numpy to capture<br /> 
-      real-time video from the camera and recognize hand gestures, which can<br />
+      This project uses the OpenCV library and numpy to capture
+      real-time video from the camera and recognize hand gestures, which can
       be mapped to perform different actions in the system.
       </h1>
 
