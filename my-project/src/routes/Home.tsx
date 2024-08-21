@@ -24,7 +24,7 @@ export default function Home() {
   }, [contents.length]);
 
   return (
-    <div className={`min-h-screen ${isDarkMode ? 'bg-gray-800 bg-opacity-50 text-white' : 'bg-gray-900 bg-opacity-45 text-white'}`}>
+    <div className={`min-h-screen ${isDarkMode ? 'bg-gray-800 bg-opacity-45 text-red' : 'bg-gray-900 bg-opacity-45 text-white'}`}>
       <aside className="py-10 px-5 sm:py-24 sm:px-14 flex justify-between items-center">
         <div className="font-Lavishly text-2xl sm:text-4xl">
           <h1 translate="no">OR</h1>
