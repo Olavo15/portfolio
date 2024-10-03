@@ -6,6 +6,7 @@ import P3 from '../model/P3';
 import P4 from '../model/P4';
 import P5 from '../model/P5';
 import P6 from '../model/P6';
+import P7 from '../model/P7';
 
 export default function Project() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -41,6 +42,9 @@ export default function Project() {
           <P4 />
           <P5 />
           <P6 />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full px-4 sm:px-14">
+          <P7 />
         </div>
       </div>
     </div>

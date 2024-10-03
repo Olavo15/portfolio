@@ -57,7 +57,13 @@ export default function Find() {
       </div>
 
       <div className="flex justify-center md:justify-end px-4 md:px-96 mt-4">
-        <a href='https://curriculo-lovat-six.vercel.app/' className='text-lg md:text-xl text-blue-600 font-Inika mt-2 hover:text-green-600'>My CV</a>
+        <a 
+          href='https://curriculo-lovat-six.vercel.app/' 
+          className='text-lg md:text-xl text-blue-600 font-Inika mt-2 hover:text-green-600'
+          target="_blank" 
+          rel="noopener noreferrer">
+            My CV
+        </a>
       </div>    
       
       <div className="flex justify-center mt-4">

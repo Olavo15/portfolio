@@ -35,6 +35,8 @@ function ImageWithModal() {
       <a
         href="https://github.com/Olavo15/Calculadora"
         className="mt-2 text-cyan-500 hover:text-cyan-300 transition duration-300"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Code Github
       </a>
